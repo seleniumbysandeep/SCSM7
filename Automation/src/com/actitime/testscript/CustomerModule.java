@@ -16,7 +16,7 @@ public class CustomerModule extends BaseClass{
 	@Test
 	public void modifyCustomer() throws InterruptedException {
 		Reporter.log("modifyCustomer",true);
-		 nThread.sleep(4000);
+		 Thread.sleep(4000);
 	}
 }
 
