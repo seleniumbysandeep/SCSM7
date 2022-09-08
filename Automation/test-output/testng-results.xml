@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Open Browser]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-06T11:56:16 IST" name="Suite" finished-at="2022-09-06T11:56:44 IST" duration-ms="28258">
+    <groups>
+    </groups>
+    <test started-at="2022-09-06T11:56:16 IST" name="Test1" finished-at="2022-09-06T11:56:30 IST" duration-ms="14017">
+      <class name="com.actitime.testscript.CustomerModule">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.actitime.testscript.CustomerModule@2f217633]" started-at="2022-09-06T11:56:16 IST" name="openBrowser" finished-at="2022-09-06T11:56:18 IST" duration-ms="2474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CustomerModule@2f217633]" started-at="2022-09-06T11:56:19 IST" name="login" finished-at="2022-09-06T11:56:24 IST" duration-ms="5964" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@2f217633]" started-at="2022-09-06T11:56:24 IST" name="createCustomer" finished-at="2022-09-06T11:56:28 IST" duration-ms="4011" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createCustomer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.CustomerModule@2f217633]" started-at="2022-09-06T11:56:28 IST" name="logout" finished-at="2022-09-06T11:56:30 IST" duration-ms="1390" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@2f217633]" started-at="2022-09-06T11:56:30 IST" name="closeBrowser" finished-at="2022-09-06T11:56:30 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CustomerModule -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-09-06T11:56:16 IST" name="Test2" finished-at="2022-09-06T11:56:44 IST" duration-ms="28258">
+      <class name="com.actitime.testscript.CustomerModule">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.actitime.testscript.CustomerModule@23c30a20]" started-at="2022-09-06T11:56:16 IST" name="openBrowser" finished-at="2022-09-06T11:56:31 IST" duration-ms="15312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CustomerModule@23c30a20]" started-at="2022-09-06T11:56:31 IST" name="login" finished-at="2022-09-06T11:56:38 IST" duration-ms="6584" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@23c30a20]" started-at="2022-09-06T11:56:38 IST" name="createCustomer" finished-at="2022-09-06T11:56:42 IST" duration-ms="4004" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createCustomer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.CustomerModule@23c30a20]" started-at="2022-09-06T11:56:42 IST" name="logout" finished-at="2022-09-06T11:56:44 IST" duration-ms="1612" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@23c30a20]" started-at="2022-09-06T11:56:44 IST" name="closeBrowser" finished-at="2022-09-06T11:56:44 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CustomerModule -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
