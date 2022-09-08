@@ -13,7 +13,11 @@ public class CustomerModule extends BaseClass{
 		Reporter.log("createCustomer",true);
 		Thread.sleep(4000);
 		}
-
+	@Test
+	public void modifyCustomer() throws InterruptedException {
+		Reporter.log("modifyCustomer",true);
+		 nThread.sleep(4000);
+	}
 }
 
 
